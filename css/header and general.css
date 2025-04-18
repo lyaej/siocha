@@ -9,7 +9,7 @@
 
 body {
     font-family: "Montserrat", sans-serif;
-    background-image: url("siocha/logos/logo/logobg.jpg");
+    background-image: url("/siocha/logos/logo/logobg.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
