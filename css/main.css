@@ -262,7 +262,7 @@ input, select, textarea {
     outline: none;
     transition: all 0.1s ease-in-out;
     appearance: none;
-    color: black;
+    color: #fff;
 }
 
 input:active, select:active, .checkbox-box:active {
