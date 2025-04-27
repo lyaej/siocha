@@ -1,0 +1,1183 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="logos/logo/logo.png" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/header and general.css">
+        <link rel="stylesheet" href="css/main(menu see all).css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/media query(header and general).css">
+        <link rel="stylesheet" href="css/media query(main (see all)).css">
+        <link rel="stylesheet" href="css/media query(footer).css">
+
+        
+        <title>ALL MENU</title>
+    </head>
+    <body>
+        
+        <header>
+
+            <div class="logo-img">
+                <a href="index.html#home"><img class="logo" src="logos/logo/logo(maroon).png" alt=""></a>
+            </div>
+
+            <nav>
+                <div class="nav">
+                    <a href="index.html#about-us"><h3>ABOUT US</h3></a>
+                    <a href="index.html#menu"><h3>MENU</h3></a>
+                    <a href="index.html#contact"><h3>CONTACT</h3></a>
+                </div>
+
+                <div class="btn">
+                    <a class="order-now-btn" href="see-all.html"><h3>ORDER NOW</h3></a>
+                </div>
+            </nav>
+
+        </header>
+
+        <article>
+
+            <a href="https://www.foodpanda.ph/restaurant/fviq/siocha-asian-cuisine-masangkay-street" target="_blank">
+                <img src="https://img.icons8.com/fluency/50/foodpanda.png" alt="">
+            </a>
+
+            <a href="https://food.grab.com/ph/en/restaurant/sio-cha-asian-cuisine-masangkay-street-delivery/2-C2EHAFWFTX2WVJ?sourceID=20250407_023023_5afac3359d164ad292907b1719b40f01_MEXMPS" target="_blank">
+                <img src="https://img.icons8.com/plasticine/50/grab-superapp.png" alt="">
+            </a>
+
+        </article>
+
+        <button class="cart-toggle">
+            <img src="logos/icons/cart.svg" alt="">
+            <span class="cart-badge">0</span>
+        </button>
+
+        <div class="cart-container">
+            <div class="cart-header">
+                <h2>Your Cart</h2>
+                <button class="close-cart"><img src="logos/icons/cart.svg" alt=""></button>
+            </div>
+            <div class="cart-items">
+                <!-- Cart items will be added here -->
+                <div class="empty-cart-message">Your cart is empty</div>
+            </div>
+            <div class="cart-total">Total: ₱0.00</div>
+            <button class="checkout-btn">Proceed to Checkout</button>
+        </div>
+
+        <div class="order-form">
+
+            <div class="order-form-content">
+                <button class="close-form"><img src="logos/icons/close.svg" alt=""></button>
+                <h2>Complete Your Order</h2>
+                
+                <div class="order-summary">
+                    <div class="summary">
+                        <h3>Order Summary</h3>
+
+                        <div class="summary-items">
+                            <!-- Order items will be here  -->
+                        </div>
+                    </div>
+                    <div class="summary-total">
+                        <div class="summary-item">
+                            <span>Total:</span>
+                            <span class="summary-total-amount">₱0.00</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <form action="#.php" method="get" id="checkout-form">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="address">Delivery Address</label>
+                        <textarea id="address" name="address" required></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="payment">Payment Method</label>
+                        <select id="payment" name="payment" required>
+                            <option value="" hidden></option>
+                            <option value="cash">Cash on Delivery</option>
+                            <option value="gcash">GCash</option>
+                            <option value="card">Credit/Debit Card</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="notes">Special Instructions</label>
+                        <textarea id="notes" name="notes"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-order">Place Order</button>
+                </form>
+
+            </div>
+
+        </div>
+
+        <main>
+            
+            <menu>
+
+                <section id="roasting-special">
+                    <h2>ROASTING SPECIAL</h2>
+                    
+                    <div class="all-menu">
+                    
+                        <div class="menu-items">
+                            <img src="menu/menu final/ROASTING SPECIAL/asado.jpg" alt="">
+                            
+                            <div class="menu-description">
+                                <p>ASADO</p>
+                                <p>₱ 520.00</p>
+                                <button class="add-to-cart-btn" data-name="ASADO" data-price="520.00"><p>Add to Cart</p></button>
+                            </div>
+
+                        </div>
+    
+                        <div class="menu-items">
+                            <img src="menu/menu final/ROASTING SPECIAL/crispy pata.jpg" alt="">
+                            <div class="menu-description">
+                                <p>CRISPY PATA</p>
+                                <p>₱ 975.00</p>
+                                <button class="add-to-cart-btn" data-name="CRISPY PATA" data-price="975.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+    
+                        <div class="menu-items">
+                            <img src="menu/menu final/ROASTING SPECIAL/hk fried chicken.jpg" alt="">
+                            <div class="menu-description">
+                                <p>HONG KONG FRIED CHICKEN</p>
+                                <p>₱ 350.00</p>
+                                <button class="add-to-cart-btn" data-name="HONG KONG FRIED CHICKEN" data-price="350.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+    
+                        <div class="menu-items">
+                            <img src="menu/menu final/ROASTING SPECIAL/hk suckling pig.jpg" alt="">
+                            <div class="menu-description">
+                                <p>HONG KONG SUCKLING PIG</p>
+                                <p>₱ 7,888.00</p>
+                                <button class="add-to-cart-btn" data-name="HONG KONG SUCKLING PIG" data-price="7888.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+    
+                        <div class="menu-items">
+                            <img src="menu/menu final/ROASTING SPECIAL/letchon macau.jpg" alt="">
+                            <div class="menu-description">
+                                <p>LETCHON MACAU</p>
+                                <p>₱ 650.00</p>
+                                <button class="add-to-cart-btn" data-name="LETCHON MACAU" data-price="650.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+    
+                        <div class="menu-items">
+                            <img src="menu/menu final/ROASTING SPECIAL/patatim vegetables.jpg" alt="">
+                            <div class="menu-description">
+                                <p>PATATIM VEGETABLES</p>
+                                <p>₱ 850.00</p>
+                                <button class="add-to-cart-btn" data-name="PATATIM VEGETABLES" data-price="850.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+    
+                        <div class="menu-items">
+                            <img src="menu/menu final/ROASTING SPECIAL/roast duck.jpg" alt="">
+                            <div class="menu-description">
+                                <p>ROASTED DUCK</p>
+                                <p>₱ 780.00</p>
+                                <button class="add-to-cart-btn" data-name="ROASTED DUCK" data-price="780.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+    
+                        <div class="menu-items">
+                            <img src="menu/menu final/ROASTING SPECIAL/roasted chicken.jpg" alt="">
+                            <div class="menu-description">
+                                <p>ROASTED CHICKEN</p>
+                                <p>₱ 390.00</p>
+                                <button class="add-to-cart-btn" data-name="ROASTED CHICKEN" data-price="390.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+    
+                        <div class="menu-items">
+                            <img src="menu/menu final/ROASTING SPECIAL/roasted goose.jpg" alt="">
+                            <div class="menu-description">
+                                <p>ROASTED GOOSE</p>
+                                <p>₱ 4,500.00</p>
+                                <button class="add-to-cart-btn" data-name="ROASTED GOOSE" data-price="4500.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-items">
+                            <img src="menu/menu final/ROASTING SPECIAL/roasting platter.jpg" alt="">
+                            <div class="menu-description">
+                                <p>ROASTING PLATTER</p>
+                                <p>₱800.00</p>
+                                <button class="add-to-cart-btn" data-name="ROASTING PLATTER" data-price="800.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+    
+                        <div class="menu-items">
+                            <img src="menu/menu final/ROASTING SPECIAL/soy chicken asado.jpg" alt="">
+                            <div class="menu-description">
+                                <p>SOY CHICKEN ASADO</p>
+                                <p>₱ 377.00</p>
+                                <button class="add-to-cart-btn" data-name="SOY CHICKEN ASADO" data-price="377.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+    
+                        <div class="menu-items">
+                            <img src="menu/menu final/ROASTING SPECIAL/white chicken.jpg" alt="">
+                            <div class="menu-description">
+                                <p>WHITE CHHICKEN</p>
+                                <p>₱ 290.00</p>
+                                <button class="add-to-cart-btn" data-name="WHITE CHICKEN" data-price="290.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+    
+                    </div>
+
+                </section>
+
+                <hr>
+
+                <section id="wooden-barrel-rice-bowl">
+
+                    <h2>WOODEN BARREL RICE BOWL</h2>
+
+                    <div class="all-menu">
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/WOODEN BARREL RICE BOWL/beef rice bowl.jpg" alt="">
+                            <div class="menu-description">
+                                <p>BEEF RICE BOWL</p>
+                                <p>₱ 338.00</p>
+                                <button class="add-to-cart-btn" data-name="BEEF RICE BOWL" data-price="338.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/WOODEN BARREL RICE BOWL/beef saozi rice bowl.jpg" alt="">
+                            <div class="menu-description">
+                                <p>BEEF SAOZI RICE BOWL</p>
+                                <p>₱ 338.00</p>
+                                <button class="add-to-cart-btn" data-name="BEEF SAOZI RICE BOWL" data-price="338.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/WOODEN BARREL RICE BOWL/braised pok rice bowl.jpg" alt="">
+                            <div class="menu-description">
+                                <p>BRAISED PORK RICE BOWL</p>
+                                <p>₱ 338.00</p>
+                                <button class="add-to-cart-btn" data-name="BRAISED PORK RICE BOWL" data-price="338.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/WOODEN BARREL RICE BOWL/chicken rice bowl.jpg" alt="">
+                            <div class="menu-description">
+                                <p>CHICKEN RICE BOWL</p>
+                                <p>₱ 338.00</p>
+                                <button class="add-to-cart-btn" data-name="CHICKEN RICE BOWL" data-price="338.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/WOODEN BARREL RICE BOWL/combination platter.jpg" alt="">
+                            <div class="menu-description">
+                                <p>COMBINATION PLATTER</p>
+                                <p>₱ 2,080.00</p>
+                                <button class="add-to-cart-btn" data-name="COMBINATION PLATTER" data-price="2080.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/WOODEN BARREL RICE BOWL/egg fried rice bowl.jpg" alt="">
+                            <div class="menu-description">
+                                <p>EGG FRIED RICE BOWL</p>
+                                <p>₱ 338.00</p>
+                                <button class="add-to-cart-btn" data-name="EGG FRIED RICE BOWL" data-price="338.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/WOODEN BARREL RICE BOWL/letchon macau & roast duck.jpg" alt="">
+                            <div class="menu-description">
+                                <p>LETCHON MACAU & ROAST DUCK</p>
+                                <p>₱ 377.00</p>
+                                <button class="add-to-cart-btn" data-name="LETCHON MACAU & ROAST DUCK" data-price="337.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/WOODEN BARREL RICE BOWL/minced pork eggplant rice bowl.jpg" alt="">
+                            <div class="menu-description">
+                                <p>MINCED PORK EGGPLANT RICE BOWL</p>
+                                <p>₱ 299.00</p>
+                                <button class="add-to-cart-btn" data-name="MINCED PORK EGGPLANT RICE BOWL" data-price="299.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/WOODEN BARREL RICE BOWL/mixed meat rice bowl.jpg" alt="">
+                            <div class="menu-description">
+                                <p>MIXED MEAT RICE BOWL</p>
+                                <p>₱ 377.00</p>
+                                <button class="add-to-cart-btn" data-name="MIXED MEAT RICE BOWL" data-price="377.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/WOODEN BARREL RICE BOWL/pork rice bowl.jpg" alt="">
+                            <div class="menu-description">
+                                <p>PORK RICE BOWL</p>
+                                <p>₱ 377.00</p>
+                                <button class="add-to-cart-btn" data-name="PORK RICE BOWL" data-price="377.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/WOODEN BARREL RICE BOWL/roast duck & white chicken.jpg" alt="">
+                            <div class="menu-description">
+                                <p>ROAST DUCK & WHITE CHICKEN</p>
+                                <p>₱ 338.00</p>
+                                <button class="add-to-cart-btn" data-name="ROAST DUCK & WHITE CHICKEN" data-price="338.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/WOODEN BARREL RICE BOWL/roast duck rice.jpg" alt="">
+                            <div class="menu-description">
+                                <p>ROAST DUCK RICE</p>
+                                <p>₱ 377.00</p>
+                                <button class="add-to-cart-btn" data-name="ROAST DUCK RICE" data-price="377.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/WOODEN BARREL RICE BOWL/seafood rice bowl.jpg" alt="">
+                            <div class="menu-description">
+                                <p>SEAFOOD RICE BOWL</p>
+                                <p>₱ 377.00</p>
+                                <button class="add-to-cart-btn" data-name="SEAFOOD RICE BOWL" data-price="377.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/WOODEN BARREL RICE BOWL/tomato and egg rice bowl.jpg" alt="">
+                            <div class="menu-description">
+                                <p>TOMATO & EGG RICE BOWL</p>
+                                <p>₱ 299.00</p>
+                                <button class="add-to-cart-btn" data-name="TOMATO & EGG RICE BOWL" data-price="299.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <hr>
+
+                <section id="roujiamo">
+
+                    <h2>ROUJIAMO</h2>
+
+                    <div class="all-menu">
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/ROUJINAMO/roujinamo beef.jpg" alt="">
+                            <div class="menu-description">
+                                <p>ROUJIAMO BEEF</p>
+                                <p>₱ 260.00</p>
+                                <button class="add-to-cart-btn" data-name="ROUJIAMO BEEF" data-price="260.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/ROUJINAMO/roujinamo chicken.jpg" alt="">
+                            <div class="menu-description">
+                                <p>ROUJIAMO CHICKEN</p>
+                                <p>₱ 234.00</p>
+                                <button class="add-to-cart-btn" data-name="ROUJIAMO CHICKEN" data-price="234.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/ROUJINAMO/roujinamo pork.jpg" alt="">
+                            <div class="menu-description">
+                                <p>ROUJIAMO PORK</p>
+                                <p>₱ 208.00</p>
+                                <button class="add-to-cart-btn" data-name="ROUJIAMO PORK" data-price="208.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+ 
+                    </div>
+
+                </section>
+
+                <hr>
+                
+                <section id="special-noodles">
+
+                    <h2>SPECIAL NOODLES</h2>
+                    <div class="all-menu">
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/NOODLES/braised beef noodles.jpg" alt="">
+                            <div class="menu-description">
+                                <p>BRAISED BEEF NOODLES</p>
+                                <p>₱ 338.00</p>
+                                <button class="add-to-cart-btn" data-name="BRAISED BEEF NOODLES" data-price="338.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/NOODLES/fried chicken noodles egg.jpg" alt="">
+                            <div class="menu-description">
+                                <p>FRIED CHICKEN NOODLES EGG</p>
+                                <p>₱ 338.00</p>
+                                <button class="add-to-cart-btn" data-name="FRIED CHICKEN NOODLES EGG" data-price="338.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/NOODLES/fried noodles.jpg" alt="">
+                            <div class="menu-description">
+                                <p>FRIED NOODLES</p>
+                                <p>₱ 388.00</p>
+                                <button class="add-to-cart-btn" data-name="FRIED NOODLES" data-price="388.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/NOODLES/hongkong fried noodles.jpg" alt="">
+                            <div class="menu-description">
+                                <p>HONG KONG FRIED NOODLES</p>
+                                <p>₱ 143.00</p>
+                                <button class="add-to-cart-btn" data-name="HONG KONG FRIED NOODLES" data-price="143.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/NOODLES/lanzhou beef noodles.jpg" alt="">
+                            <div class="menu-description">
+                                <p>LANZHOU BEEF NOODLES</p>
+                                <p>₱ 338.00</p>
+                                <button class="add-to-cart-btn" data-name="LANZHOU BEEF NOODLES" data-price="338.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/NOODLES/oil splashed tomato egg noodles.jpg" alt="">
+                            <div class="menu-description">
+                                <p>OIL SPLASHED TOMATO EGG NOODLES</p>
+                                <p>₱ 299.00</p>
+                                <button class="add-to-cart-btn" data-name="OIL SPLASHED TOMATO EGG NOODLES" data-price="299.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/NOODLES/oily noodles.jpg" alt="">
+                            <div class="menu-description">
+                                <p>OILY NOODLES</p>
+                                <p>₱ 299.00</p>
+                                <button class="add-to-cart-btn" data-name="OILY NOODLES" data-price="299.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/NOODLES/potato beef brisket noodles.jpg" alt="">
+                            <div class="menu-description">
+                                <p>POTATO BEEF BRISKET NOODLES</p>
+                                <p>₱ 338.00</p>
+                                <button class="add-to-cart-btn" data-name="POTATO BEEF BRISKET NOODLES" data-price="338.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </section>
+
+                <hr>
+
+                <section id="dimsum">
+
+                    <h2>DIMSUM</h2>
+                    <div class="all-menu">
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/DIMSUM/asado siopao.jpg" alt="">
+                            <div class="menu-description">
+                                <p>ASADO SIOPAO</p>
+                                <p>₱  143.00</p>
+                                <button class="add-to-cart-btn" data-name="ASADO SIOPAO" data-price="143.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/DIMSUM/bola bola siopao.jpg" alt="">
+                            <div class="menu-description">
+                                <p>BOLA BOLA ASADO SIOPAO</p>
+                                <p>₱ 143.00</p>
+                                <button class="add-to-cart-btn" data-name="BOLA BOLA ASADO SIOPAO" data-price="143.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/DIMSUM/buchi.jpg" alt="">
+                            <div class="menu-description">
+                                <p>BUCHI (3 pcs.)</p>
+                                <p>₱ 143.00</p>
+                                <button class="add-to-cart-btn" data-name="BUCHI (3 pcs.)" data-price="143.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/DIMSUM/chicken feet.jpg" alt="">
+                            <div class="menu-description">
+                                <p>CHICKEN FEET</p>
+                                <p>₱ 143.00</p>
+                                <button class="add-to-cart-btn" data-name="CHICKEN FEET" data-price="143.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/DIMSUM/fresh chinese lumpia.jpg" alt="">
+                            <div class="menu-description">
+                                <p>FRESH CHINESE LUMPIA</p>
+                                <p>₱ 143.00</p>
+                                <button class="add-to-cart-btn" data-name="FRESH CHINESE LUMPIA" data-price="143.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/DIMSUM/fried mantao.jpg" alt="">
+                            <div class="menu-description">
+                                <p>FRIED MANTAO</p>
+                                <p>₱ 143.00</p>
+                                <button class="add-to-cart-btn" data-name="FRIED MANTAO" data-price="143.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/DIMSUM/fried wonton 12pcs.jpg" alt="">
+                            <div class="menu-description">
+                                <p>FRIED WONTON (12 pcs.)</p>
+                                <p>₱ 312.00</p>
+                                <button class="add-to-cart-btn" data-name="FRIED WONTON" data-price="312.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/DIMSUM/sio mai.jpg" alt="">
+                            <div class="menu-description">
+                                <p>SIOMAI</p>
+                                <p>₱ 156.00</p>
+                                <button class="add-to-cart-btn" data-name="SIOMAI" data-price="156.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/DIMSUM/spare ribs dimsum.jpg" alt="">
+                            <div class="menu-description">
+                                <p>SPARE RIBS DIMSUM</p>
+                                <p>₱ 143.00</p>
+                                <button class="add-to-cart-btn" data-name="SPARE RIBS DIMSUM" data-price="143.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                </section>
+
+                <hr>
+
+                <section id="beef">
+                    
+                    <h2>BEEF</h2>
+                    <div class="all-menu">
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/BEEF/beef ampalaya.jpg" alt="">
+                            <div class="menu-description">
+                                <p>BEEF AMPALAYA</p>
+                                <p>₱ 520.00</p>
+                                <button class="add-to-cart-btn" data-name="BEEF AMPALAYA" data-price="520.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/BEEF/beef brocolli.jpg" alt="">
+                            <div class="menu-description">
+                                <p>BEEF BROCOLLI</p>
+                                <p>₱ 585.00</p>
+                                <button class="add-to-cart-btn" data-name="BEEF BROCOLLI" data-price="585.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/BEEF/beef short ribs.jpg" alt="">
+                            <div class="menu-description">
+                                <p>BEEF SHORT RIBS</p>
+                                <p>₱ 585.00</p>
+                                <button class="add-to-cart-btn" data-name="BEEF SHORT RIBS" data-price="585.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/BEEF/beef stir fry.jpg" alt="">
+                            <div class="menu-description">
+                                <p>BEEF STIR FRY</p>
+                                <p>₱ 520.00</p>
+                                <button class="add-to-cart-btn" data-name="BEEF STIR FRY" data-price="520.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/BEEF/sizzling beef.jpg" alt="">
+                            <div class="menu-description">
+                                <p>SIZZLING BEEF</p>
+                                <p>₱ 520.00</p>
+                                <button class="add-to-cart-btn" data-name="SIZZLING BEEF" data-price="520.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                </section>
+                
+                <hr>
+
+                <section id="chicken">
+
+                    <h2>CHICKEN</h2>
+                    <div class="all-menu">
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/CHICKEN/chicken chop.jpg" alt="">
+                            <div class="menu-description">
+                                <p>CHICKEN CHOPS</p>
+                                <p>₱ 390.00</p>
+                                <button class="add-to-cart-btn" data-name="CHHICKEN CHOPS" data-price="390.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/CHICKEN/hainan boneless chicken.jpg" alt="">
+                            <div class="menu-description">
+                                <p>HAINAN BONELESS CHICKEN</p>
+                                <p>₱ 500.00</p>
+                                <button class="add-to-cart-btn" data-name="HAINAN BONELESS CHICKEN" data-price="500.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/CHICKEN/hainan chicken.jpg" alt="">
+                            <div class="menu-description">
+                                <p>HAINAN CHICKEN</p>
+                                <p>₱ 500.00</p>
+                                <button class="add-to-cart-btn" data-name="HAINAN CHICKEN" data-price="500.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/CHICKEN/hot chicken salad.jpg" alt="">
+                            <div class="menu-description">
+                                <p>HOT CHICKEN SALAD</p>
+                                <p>₱ 650.00</p>
+                                <button class="add-to-cart-btn" data-name="HOT CHICKEN SALAD" data-price="650.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/CHICKEN/taiwanese chicken chops.jpg" alt="">
+                            <div class="menu-description">
+                                <p>TAIWANESE CHICKEN CHOPS</p>
+                                <p>₱ 390.00</p>
+                                <button class="add-to-cart-btn" data-name="TAIWANESE CHICKEN CHOPS" data-price="390.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                </section>
+
+                <hr>
+
+                <section id="fish">
+
+                    <h2>FISH</h2>
+                    <div class="all-menu">
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/FISH/fish fillet sinigang style.jpg" alt="">
+                            <div class="menu-description">
+                                <p>FISH FILLET SINIGANG STYLE</p>
+                                <p>₱ 520.00</p>
+                                <button class="add-to-cart-btn" data-name="FISH FILLET SINIGANG STYLE" data-price="520.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/FISH/steamed fish.jpg" alt="">
+                            <div class="menu-description">
+                                <p>STEAMED FISH</p>
+                                <p>₱ 380.00</p>
+                                <button class="add-to-cart-btn" data-name="STEAMED FISH" data-price="380.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/FISH/stir-fried fish with green peppers.jpg" alt="">
+                            <div class="menu-description">
+                                <p>STIR-FRIED FISH WITH GREEN PEPPERS</p>
+                                <p>₱ 754.00</p>
+                                <button class="add-to-cart-btn" data-name="STIR-FRIED FISH WITH GREEN PEPPERS" data-price="754.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                </section>
+
+                <hr>
+
+                <section id="pork">
+                    <h2>PORK</h2>
+                    <div class="all-menu">
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/PORK/grilled pork with garlic.jpg" alt="">
+                            <div class="menu-description">
+                                <p>GRILLED PORK WITH GARLIC</p>
+                                <p>₱ 455.00</p>
+                                <button class="add-to-cart-btn" data-name="GRILLED PORK WITH GARLIC" data-price="455.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/PORK/pork sinigang style.jpg" alt="">
+                            <div class="menu-description">
+                                <p>PORK SINIGANG STYLE</p>
+                                <p>₱ 520.00</p>
+                                <button class="add-to-cart-btn" data-name="PORK SINIGANG STYLE" data-price="520.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/PORK/sizzling pork chops.jpg" alt="">
+                            <div class="menu-description">
+                                <p>SIZZLING PORK CHOPS</p>
+                                <p>₱ 250.00</p>
+                                <button class="add-to-cart-btn" data-name="PORK CHOPS" data-price="250.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/PORK/sweet and sour pork.jpg" alt="">
+                            <div class="menu-description">
+                                <p>SWEET & SOUR PORK</p>
+                                <p>₱ 546.00</p>
+                                <button class="add-to-cart-btn" data-name="SWEET & SOUR PORK" data-price="546.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </section>
+
+                <hr>
+
+                <section id="shrimp-squid">
+
+                    <h2>SHIRMP & SQUID</h2>
+                    <div class="all-menu">
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/SHRIMP/shrimp and pepper stir-fry.jpg" alt="">
+                            <div class="menu-description">
+                                <p>SHRIMP AND PEPPER STIR-FRIED</p>
+                                <p>₱ 420.00</p>
+                                <button class="add-to-cart-btn" data-name="SHRIMP AND PEPPER STIR-FRIED" data-price="420.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/SHRIMP/shrimp in peanut sauce.jpg" alt="">
+                            <div class="menu-description">
+                                <p>SHRIMP IN PEANUT SAUCE</p>
+                                <p>₱ 585.00</p>
+                                <button class="add-to-cart-btn" data-name="SHRIMP IN PEANUT SAUCE" data-price="585.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/SHRIMP/stir-fried egg with shrimp.jpg" alt="">
+                            <div class="menu-description">
+                                <p>STIR-FRIED EGG WITH SHRIMP</p>
+                                <p>₱ 580.00</p>
+                                <button class="add-to-cart-btn" data-name="STIR-FRIED EGG WITH SHIRMP" data-price="580.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/SHRIMP/sweet and sour squid.jpg" alt="">
+                            <div class="menu-description">
+                                <p>SWEET & SOUR SQUID</p>
+                                <p>₱ 585.00</p>
+                                <button class="add-to-cart-btn" data-name="SWEET & SOUR SQUID" data-price="585.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </section>
+                
+                <hr>
+
+                <section id="vegetables">
+
+                    <h2>VEGETABLES</h2>
+                    <div class="all-menu">
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/VEGETABLES/black cauliflower.jpg" alt="">
+                            <div class="menu-description">
+                                <p>BLACK CAULIFLOWER</p>
+                                <p>₱ 400.00</p>
+                                <button class="add-to-cart-btn" data-name="BLACK CAULIFLOWER" data-price="400.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/VEGETABLES/braised beancurd mushroom.jpg" alt="">
+                            <div class="menu-description">
+                                <p>BRAISED BEANCURD MUSHROOM</p>
+                                <p>₱ 400.00</p>
+                                <button class="add-to-cart-btn" data-name="BRAISED BEANCURD MUSHROOM" data-price="400.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </section>
+
+                <hr>
+
+                <section id="soup">
+                    <h2>SOUP</h2>
+                    
+                    <div class="all-menu">
+                    
+                        <div class="menu-items">
+                            <img src="menu/menu final/SOUPS/chicken corn soup.jpg" alt="">
+                            <div class="menu-description">
+                                <p>CHICKEN CORN SOUP</p>
+                                <p>₱ 390.00</p>
+                                <button class="add-to-cart-btn" data-name="CHICKEN CORN SOUP" data-price="390.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/SOUPS/crab corn soup.jpg" alt="">
+                            <div class="menu-description">
+                                <p>CRAB CORN SOUP</p>
+                                <p>₱ 390.00</p>
+                                <button class="add-to-cart-btn" data-name="CRAB CORN SOUP" data-price="390.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/SOUPS/mutton noodles soup.jpg" alt="">
+                            <div class="menu-description">
+                                <p>MUTTON NOODLES SOUP</p>
+                                <p>₱ 338.00</p>
+                                <button class="add-to-cart-btn" data-name="MUTTON NOODLES SOUP" data-price="338.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/SOUPS/seafood soup.jpg" alt="">
+                            <div class="menu-description">
+                                <p>SEAFOOD SOUP</p>
+                                <p>₱ 416.00</p>
+                                <button class="add-to-cart-btn" data-name="SEAFOOD SOUP" data-price="416.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/SOUPS/wonton soup.jpg" alt="">
+                            <div class="menu-description">
+                                <p>WONTON SOUP</p>
+                                <p>₱ 300.00</p>
+                                <button class="add-to-cart-btn" data-name="WONTON SOUP" data-price="300.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <hr>
+
+                <section id="rice">
+
+                    <h2>RICE</h2>
+                    <div class="all-menu">
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/RICE/fried rice with shrimp.jpg" alt="">
+                            <div class="menu-description">
+                                <p>FRIED RICE WITH SHRIMP</p>
+                                <p>₱ 300.00</p>
+                                <button class="add-to-cart-btn" data-name="FRIED RICE WITH SHIRMP" data-price="300.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/RICE/garlic fried rice.jpg" alt="">
+                            <div class="menu-description">
+                                <p>GARLIC FRIED RICE</p>
+                                <p>₱ 250.00</p>
+                                <button class="add-to-cart-btn" data-name="GARLIC FRIED RICE" data-price="250.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/RICE/japanese fried rice.jpg" alt="">
+                            <div class="menu-description">
+                                <p>JAPANESE FRIED RICE</p>
+                                <p>₱ 300.00</p>
+                                <button class="add-to-cart-btn" data-name="JAPANESE FRIED RICE" data-price="300.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/RICE/nasi goreng.jpg" alt="">
+                            <div class="menu-description">
+                                <p>NASI GORENG</p>
+                                <p>₱ 230.00</p>
+                                <button class="add-to-cart-btn" data-name="NASI GORENG" data-price="230.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/RICE/steamed rice.jpg" alt="">
+                            <div class="menu-description">
+                                <p>STEAMED RICE</p>
+                                <p>₱ 50.00</p>
+                                <button class="add-to-cart-btn" data-name="STEAMED RICE" data-price="50.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/RICE/yang chow fried rice.jpg" alt="">
+                            <div class="menu-description">
+                                <p>YANG CHOW FRIED RICE</p>
+                                <p>₱ 416.00</p>
+                                <button class="add-to-cart-btn" data-name="YANG CHOW FRIED RICE" data-price="416.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                </section>
+
+                <hr>
+
+                <section id="dessert">
+
+                    <h2>DESSERT</h2>
+                    <div class="all-menu">
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/DESSERTS/chocolate pudding.jpg" alt="">
+                            <div class="menu-description">
+                                <p>CHOCOLATE PUDDING</p>
+                                <p>₱ 100.00</p>
+                                <button class="add-to-cart-btn" data-name="CHOCOLATE PUDDING" data-price="100.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/DESSERTS/mango pudding.jpg" alt="">
+                            <div class="menu-description">
+                                <p>MANGO PUDDING</p>
+                                <p>₱ 100.00</p>
+                                <button class="add-to-cart-btn" data-name="MANGO PUDDING" data-price="100.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                        <div class="menu-items">
+                            <img src="menu/menu final/DESSERTS/ice cream.jpg" alt="">
+                            <div class="menu-description">
+                                <p>ICE CREAM</p>
+                                <p>₱ 75.00</p>
+                                <button class="add-to-cart-btn" data-name="ICE CREAM" data-price="75.00"><p>Add to Cart</p></button>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                </section>
+
+                <div class="arrow-up">
+                    <a href="#">&uarr;</a>
+                </div>
+    
+            </menu>
+
+            <button id="hamburger-icon" class="hamburger-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <aside>
+                <div class="menu" id="mobile-menu">
+                    
+                    <a href="#roasting-special">
+                        <div class="menu-category">
+                            <h3>ROASTING SPECIAL</h3>
+                        </div>
+                    </a>
+                    
+                    <a href="#wooden-barrel-rice-bowl">
+                        <div class="menu-category">
+                            <h3>WOODEN BARREL RICE BOWL</h3>
+                        </div>
+                    </a>
+                    
+                    <a href="#roujiamo">
+                        <div class="menu-category">
+                            <h3>ROUJIAMO</h3>
+                        </div>
+                    </a>
+                    
+                    <a href="#special-noodles">
+                        <div class="menu-category">
+                            <h3>SPECIAL NOODLES</h3>
+                        </div>
+                    </a>
+                    
+                    <a href="#dimsum">
+                        <div class="menu-category">
+                            <h3>DIMSUM</h3>
+                        </div>
+                    </a>
+                    
+                    <a href="#beef">
+                        <div class="menu-category">
+                            <h3>BEEF</h3>
+                        </div>
+                    </a>
+                    
+                    <a href="#chicken">
+                        <div class="menu-category">
+                            <h3>CHICKEN</h3>
+                        </div>
+                    </a>
+
+                    <a href="#fish">
+                        <div class="menu-category">
+                            <h3>FISH</h3>
+                        </div>
+                    </a>
+    
+                    <a href="#pork">
+                        <div class="menu-category">
+                            <h3>PORK</h3>
+                        </div>
+                    </a>
+        
+                    <a href="#shrimp-squid">
+                        <div class="menu-category">
+                            <h3>SHRIMP & SQUID</h3>
+                        </div>
+                    </a>
+                    
+                    <a href="#vegetables">
+                        <div class="menu-category">
+                            <h3>VEGETABLES</h3>
+                        </div>
+                    </a>
+
+                    <a href="#soup">
+                        <div class="menu-category">
+                            <h3>SOUPS</h3>
+                        </div>
+                    </a>
+    
+                    <a href="#rice">
+                        <div class="menu-category">
+                            <h3>RICE</h3>
+                        </div>
+                    </a>
+    
+                    <a href="#dessert">
+                        <div class="menu-category">
+                            <h3>DESSERT</h3>
+                        </div>
+                    </a>
+    
+                </div>
+            </aside>
+        
+        </main>
+
+        <footer>
+
+            <h3>&#169;2017 <img src="logos/logo/logo.png" alt=""> All Rights Reserved.</h3>
+
+            <div class="nav-footer">
+
+                <a href="index.html#menu"><h3>MENU</h3></a>
+                <a href="index.html#about-us"><h3>ABOUT US</h3></a>
+                <a href="index.html#contact"><h3>CONTACT</h3></a>
+
+            </div>
+                
+            <div class="footer-info">
+
+                <div class="store-info">
+                    <img  width="50" height="50"  src="https://img.icons8.com/ios/50/FFFFFF/marker--v1.png" alt="marker--v1"/>
+                    <a href="https://www.google.com/maps/dir/14.5995124,120.9842195/14.6088702,120.9789551/@14.6043482,120.9723549,15z/data=!3m1!4b1!4m4!4m3!1m1!4e1!1m0?entry=ttu&g_ep=EgoyMDI1MDMyNS4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D" target="_blank">
+                        <h4>1333 Masangkay Street, <br>Binondo, Manila, Philippines</h4>
+                    </a>
+                </div>
+    
+                <div class="store-info">
+                    <img  width="50" height="50" src="https://img.icons8.com/ios/50/FFFFFF/open-sign--v1.png" alt="open-sign--v1"/>
+                    <h4>MONDAY - SUNDAY</h4>
+                    <p>8:00 am - 9:00 pm</p>
+                </div>
+    
+                <div class="store-info">
+                    <img width="50" height="50" src="https://img.icons8.com/ios/50/FFFFFF/phone--v1.png" alt="phone--v1"/>
+                    <a href="tel:+027002463"><h4>02-70023463</h4></a>
+                    <a href="tel:+639178377882"><h4>+63 917 837 7882</h4></a>
+                    <a href="tel:+639338152613"><h4>+63 933 815 2613</h4></a>
+                </div>
+
+            </div>
+
+        </footer>
+        <script src="js/see-all(menu).js"></script>
+    </body>
+    
+</html>

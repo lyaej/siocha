@@ -1,0 +1,483 @@
+
+/* HOME */
+
+#home {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 40px;
+
+}
+
+menu {
+    z-index: 2;
+    display: flex;
+    margin: 0;
+}
+
+.cta-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 100px;
+    position: absolute;
+    top: 620px;
+    left: 40%;
+}
+
+.cta-container a {
+    color: #FEC200;
+    border: 2px solid #FEC200;
+    border-radius: 20px;
+    padding: 20px;
+    transition: all 0.2s;
+}
+
+.cta-container a:hover {
+    color: #FEC200;
+    font-weight: 500;
+    border: #CC9B00 2px solid;
+    box-shadow: 0 0 20px #FFE066, 0 0 20px #FFE066;
+    transform: scale(1.3);
+    background-color: rgba(255, 224, 102, 0.2);
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+#menu, #about-us, #contact {
+    box-shadow: 0 6px 20px rgba(255, 224, 102, 0.5), 0 0 20px rgba(255, 224, 102, 0.5);
+    margin: 0 0 5% 0;
+    padding: 2%;
+    border-radius: 10px;
+    height: 100vh;
+}
+
+
+
+/* MENU */
+
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu h2, #about-us h2, #contact h2 {
+    color: #fff;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px 50px;
+}
+
+.menu-category {
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    color: #C1272D;
+    background: rgba(255, 224, 102, 0.5);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    transition: all 0.2s;
+}
+
+.menu-category:hover, .menu-category:active {
+    transform: scale(1.2);
+    box-shadow: 0 6px 20px rgb(193,39,45), 0 6px 20px rgb(193, 39, 45);
+    text-shadow: 6px 6px 10px #fff, 6px 6px 10px #fff;
+}
+
+.menu-category img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+
+
+
+/* ABOUT US */
+
+
+#about-us {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#about-us h3 {
+    color: #fff;
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.about-us-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.about-us-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgba(255, 224, 102, 0.5);
+    border-radius: 12px;
+    height: 500px;
+    width: 100%;
+    text-align: left;
+    padding: 0 20px;
+}
+
+.about-us-content h4 {
+    text-align: justify;
+    line-height: 1.5rem;
+}
+
+
+
+
+
+
+
+/* CONTACT */
+
+
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: normal;
+    align-content: normal;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 50px;
+
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 50%;
+    height: 100%;
+    
+}
+
+.contact-link > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    gap: 50px;
+    margin-bottom: 40px;
+}
+
+.contact-link > div a, div h4 {
+    display: block;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.contact-link img {
+    height: 50px;
+}
+
+.contact-link a h4 {
+    transition: all 0.2s;
+}
+
+.contact-link a h4:hover, .contact-link a h4:active {
+    transform: scale(1.2);
+    text-shadow: 6px 6px 10px #C1272D, 6px 6px 10px #C1272D;
+    color: #FEC200;
+    font-weight: 700;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin: 0 2%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    color: #fff;
+    font-weight: 700;
+}
+
+input, select, textarea {
+    border: 2px solid #FEC200;
+    border-radius: 10px;
+    padding: 13px;
+    background-color: transparent;
+    width: 100%;
+    font-size: 1rem;
+    outline: none;
+    transition: all 0.1s ease-in-out;
+    appearance: none;
+    color: black;
+}
+
+input:active, select:active, .checkbox-box:active {
+    box-shadow: 0 6px 20px rgb(193,39,45), 0 6px 20px rgb(193, 39, 45);
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    margin: 0;
+  -webkit-appearance: none;
+}
+
+.name-email, .date-and-time, .subject, .message {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    gap: 20px;  
+}
+
+.reservation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.label {
+    width: 100%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.label-subject {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+option {
+    font-size: 1.05rem;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: center;
+    background-color: rgba(255, 224, 102, 0.5);
+}
+
+option:first-child {
+    display: none;
+}
+
+#submit {
+    font-weight: 700;
+    letter-spacing: 0.05rem;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.checkbox input[type="checkbox"] {
+    display: none;
+}
+
+.checkbox-box {
+    width: 18px;
+    height: 18px;
+    border: 2px solid #FEC200;
+    display: inline-block;
+    position: relative;
+    border-radius: 4px;
+    vertical-align: top;
+}
+
+.checkbox input[type="checkbox"]:checked + .checkbox-box::after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 10px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    top: 0;
+    left: 3px;
+    transform: rotate(45deg);
+}
+
+.confirm {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.confirm a {
+    color: #fff;
+    text-decoration: solid underline;
+}
+
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    border-top: 2px solid #FEC200;
+    padding:  30px 0 0 0;
+}
+
+.media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+}
+
+.social img {
+    height: 50px;
+}
+
+.social a h4 {
+    color: #fff;
+    transition: all 0.2s;
+}
+
+.social a h4:hover, .social a h4:active {
+    transform: scale(1.2);
+    text-shadow: 6px 6px 10px #C1272D, 6px 6px 10px #C1272D;
+    color: #FEC200;
+    font-weight: 700;
+}
+
+.deliver {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.delivery-app a h4 {
+    color: #fff;
+    transition: all 0.2s;
+}
+
+.delivery-app a h4:hover, .delivery-app a h4:active {
+    transform: scale(1.2);
+    text-shadow: 6px 6px 10px #C1272D, 6px 6px 10px #C1272D;
+    color: #FEC200;
+    font-weight: 700;
+}
+
+.delivery-app img {
+    height: 50px;
+}
+
+
+/* PRIVACY AND TERMS AND CONDITION */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.2s ease;
+}
+  
+.modal:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+  
+.modal-content {
+    background-color: #FFE066;
+    color: #C1272D;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 800px;
+    box-shadow: 0 5px 15px rgb(193,39,45);
+    position: relative;
+    text-align: left;
+    max-height: 100vh;
+    overflow-y: auto;
+}
+  
+.close-button {
+    color: #aaa;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 28px;
+    text-decoration: none;
+}
+  
+.close-button:hover {
+    color: #333;
+}

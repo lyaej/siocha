@@ -1,0 +1,704 @@
+@media only screen and (max-width: 479px)  {
+
+    /* MAIN */
+
+    /* home */
+
+    #home {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        overflow: hidden;
+        padding-bottom: 40px;
+        border-radius: 10px;
+        margin-top: 122px;
+    }
+
+    .cta-container {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        gap: 20px;
+        top: 550px;
+        left: 30%;
+    }
+
+    .cta-container a  {
+        padding: 20px 50px;
+        font-size: 1rem;
+    }
+
+    aside {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        z-index: -1;
+    }
+
+    video {
+        width: 100vw;
+    }
+
+
+
+    /* about us */
+
+    #about-us {
+        height: fit-content;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 50px;
+        
+    }
+    
+    #about-us h2 {
+        margin: 0;
+        text-align: center;
+    }
+    
+    .about-us-container {
+        margin: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 0;
+    }
+
+    .about-us-content {
+        height: fit-content;
+        display: flex;
+        gap: 20px;
+        padding: 40px 20px;
+    }
+
+    
+
+    /* menu */
+
+    #menu {
+        height: fit-content;
+        width: 100vw;
+    }
+
+
+
+    /* contact */
+
+    #contact {
+        height: fit-content;
+        width: 100vw;
+        padding: 50px 0;
+    }
+    
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .contact-link {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        margin-bottom: 0;
+    }
+
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+    }
+
+    .modal {
+        top: 110px;
+    }
+
+    .social-media {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .media {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .deliver {
+        flex-direction: column;
+    }
+
+}
+
+
+
+
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+
+    /* MAIN */
+
+    #home, #about-us, #menu, #contact {
+        margin-bottom: 50px;
+    }
+
+    /* home */
+
+    #home {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+
+    .cta-container {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        gap: 20px;
+        top: 550px;
+        left: 35%;
+    }
+
+    .cta-container a  {
+        padding: 20px 50px;
+        font-size: 1rem;
+    }
+
+    aside {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        z-index: -1;
+    }
+
+    video {
+        width: 100vw;
+    }
+
+
+    /* about us */
+
+    #about-us {
+        height: fit-content;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 50px;
+        gap: 50px;
+    }
+
+    #about-us h2 {
+        margin: 0;
+        text-align: center;
+    }
+
+    .about-us-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 0;
+        margin: 0 10px;
+    }
+
+    .about-us-content {
+        height: fit-content;
+        display: flex;
+        gap: 20px;
+        padding: 40px 20px;
+    }
+    
+
+
+    /* menu */
+
+    #menu {
+        height: fit-content;
+        width: 100vw;
+    }
+
+
+
+    /* contact */
+
+    #contact {
+        height: fit-content;
+        width: 100vw;
+        padding: 50px 0;
+    }
+    
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .contact-link {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        margin-bottom: 0;
+    }
+
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        width: 95vw;
+    }
+
+    .modal {
+        top: 130px;
+    }
+
+    .social-media {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .media {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .deliver {
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+
+    /* MAIN */
+    #home, #about-us, #menu, #contact {
+        margin-bottom: 50px;
+    }
+
+    /* #home */
+
+    #home {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        overflow: hidden;
+        padding-bottom: 40px;
+    }
+
+    .cta-container {
+        flex-direction: row;
+        position: absolute;
+        top: 65%;
+        left: 30%;
+
+    }
+
+    .cta-container a  {
+        padding: 20px 50px;
+        font-size: 1rem;
+    }
+
+    aside {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        z-index: -1;
+    }
+
+    video {
+        width: 100vw;
+    }
+
+
+    /* #about us */
+
+    #about-us {
+        height: fit-content;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 50px;
+        gap: 50px;
+        border-radius: 10px;
+    }
+
+    #about-us h2 {
+        margin: 0;
+        text-align: center;
+    }
+
+    .about-us-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 0;
+    }
+
+    .about-us-content {
+        height: fit-content;
+        display: flex;
+        gap: 20px;
+        padding: 40px 20px;
+    }
+
+
+    /* menu */
+
+    #menu {
+        height: fit-content;
+        width: 100vw;
+    }
+
+
+    /* contact */
+
+    #contact {
+        height: fit-content;
+        width: 100vw;
+        padding: 50px 0;
+    }
+    
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .contact-link {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        margin-bottom: 0;
+    }
+
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        width: 95vw;
+    }
+
+    .modal {
+        top: 110px;
+    }
+
+}
+
+
+
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    /* MAIN */
+    #home, #about-us, #menu, #contact {
+        margin-bottom: 50px;
+    }
+
+    /* home */
+
+    #home {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        overflow: hidden;
+        padding-bottom: 40px;
+        border-radius: 10px;
+    }
+
+    .cta-container {
+        position: absolute;
+        top: 65%;
+        left: 33%;
+
+    }
+
+    .cta-container a  {
+        padding: 20px 50px;
+        font-size: 1rem;
+    }
+
+    aside {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        z-index: -1;
+    }
+
+    video {
+        width: 100vw;
+    }
+
+
+
+
+    /* about us */
+
+    #about-us {
+        height: fit-content;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 50px;
+        gap: 50px;
+        border-radius: 10px;
+    }
+
+    #about-us h2 {
+        margin: 0;
+        text-align: center;
+    }
+
+    .about-us-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 0;
+    }
+
+    .about-us-content {
+        height: fit-content;
+        display: flex;
+        gap: 20px;
+        padding: 40px 20px;
+    }
+
+
+    /* menu */
+
+    #menu {
+        height: fit-content;
+        width: 100vw;
+    }
+
+
+    /* contact */
+
+    #contact {
+        height: fit-content;
+        width: 100vw;
+        padding: 50px 0;
+    }
+    
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .contact-link {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        margin-bottom: 0;
+    }
+
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        width: 95vw;
+    }
+
+    .social-media {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: normal;
+        align-content: normal;
+    }
+
+    .media {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .deliver {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .modal {
+        top: 69px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+
+
+
+
+@media only screen and (min-width: 1200px) {
+
+    /* MAIN */
+
+    /* home */
+
+    #home {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        overflow: hidden;
+        padding-bottom: 40px;
+        border-radius: 10px;
+    }
+
+    .cta-container {
+        position: absolute;
+        flex-wrap: wrap;
+        top: 65%;
+        left: 38%;
+
+    }
+
+    .cta-container a  {
+        padding: 20px 50px;
+        font-size: 1rem;
+    }
+
+    aside {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        z-index: -1;
+    }
+
+    video {
+        width: 100vw;
+    }
+
+
+
+
+    /* about us */
+
+    #about-us {
+        height: max-content;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 50px;
+        gap: 50px;
+
+    }
+
+    #about-us h2 {
+        margin: 0;
+        text-align: center;
+    }
+
+    .about-us-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: fit-content;
+        margin-bottom: 0;
+    }
+
+    .about-us-content {
+        height: max-content;
+        display: flex;
+        gap: 20px;
+        padding: 40px 20px;
+    }
+
+
+    /* menu */
+
+    #menu {
+        height: 100vh;
+        width: 100vw;
+    }
+
+
+    /* contact */
+
+    #contact {
+        height: fit-content;
+        width: 100vw;
+    }
+    
+    .contact-info {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contact-link {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        margin-bottom: 0;
+        margin-left: 10px;
+    }
+
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        padding-right: 50px;
+    }
+
+    .social-media {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: normal;
+        align-content: normal;
+    }
+
+    .media {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .deliver {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .modal {
+        top: 69px;
+    }
+}

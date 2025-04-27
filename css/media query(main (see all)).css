@@ -1,0 +1,384 @@
+@media only screen and (max-width: 479px)  {
+    
+    main {
+        width: 100vw;
+        width: 100vw;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    menu {
+        margin: 0;
+    }
+    
+    
+    .menu {
+        top: 122px;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 20px;
+        padding: 20px;
+    }
+    
+    
+    .menu.active {
+        height: 100vh;
+        align-items: center;
+        font-size: 1rem;
+    }
+
+    .all-menu {
+        width: 100%;
+        max-width: 1200px;
+        padding: 20px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    .menu-items {
+        width: 100%;
+        max-width: 500px;
+        height: max-content;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .menu-items:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+    
+    .menu-items img {   
+        width: 40%;
+        max-width: 180px;
+        height: auto;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+    
+    .menu-description {
+        width: 55%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 15px;
+    }
+    
+    .menu-description p {
+        font-size: 18px;
+        margin: 0;
+    }
+    
+    .menu-description p:first-child {
+        font-weight: 600;
+    }
+    
+
+    .arrow-up {
+        bottom: 120px;
+        right: 8px;
+    }
+
+    /* HAMBURGER ICON */
+    .hamburger-icon {
+        top: 120px;
+        right: 0;
+    }
+
+
+    /* SHOPPING CART */
+
+    .cart-container {
+        top: 160px;
+        padding: 0 20px;
+    }
+
+    .cart-container.active {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .cart-toggle {
+        top: 190px;
+        right: 8px;
+    }
+
+    .close-cart {
+        margin-top: 40px;
+    }
+
+    /* Payment Form */
+
+    .order-form {
+        width: 100vw;
+    }
+
+    .order-form-content {
+        width: 100vw;
+        padding: 20px;
+    }
+
+    .close-form {
+        top: 30px;
+        right: 8px;
+    }
+
+}
+
+
+
+
+
+@media only screen and (min-width: 480px) and (max-width: 768px)  {
+    main {
+        width: 100vw;
+        width: 100vw;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    menu {
+        margin: 0;
+    }
+    
+    
+    .menu {
+        top: 122px;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        align-content: flex-start;
+        gap: 30px;
+        padding: 60px 40px;
+    }
+    
+    .menu-category h3 {
+        font-size: 2rem;
+        
+    }
+    
+    .menu.active {
+        height: 100vh;
+        align-items: flex-start;
+        font-size: 2rem;
+    }
+
+    .all-menu {
+        width: 100%;
+        max-width: 1200px;
+        padding: 40px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    .menu-items {
+        width: 100%;
+        max-width: 500px;
+        height: max-content;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .menu-items:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+    
+    .menu-items img {   
+        width: 40%;
+        max-width: 180px;
+        height: auto;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+    
+    .menu-description {
+        width: 55%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 15px;
+    }
+    
+    .menu-description p {
+        font-size: 18px;
+        margin: 0;
+    }
+    
+    .menu-description p:first-child {
+        font-weight: 600;
+    }
+    
+
+    .arrow-up {
+        bottom: 120px;
+        right: 13px;
+    }
+
+    /* HAMBURGER ICON */
+
+    .hamburger-icon {
+        top: 120px;
+        right: 10px;
+    }
+
+
+    /* SHOPPING CART */
+
+    .cart-container {
+        top: 160px;
+        padding: 0 20px;
+    }
+
+    .cart-container.active {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .cart-toggle {
+        top: 190px;
+        right: 18px;
+    }
+
+    .close-cart {
+        margin-top: 45px;
+    }
+
+    /* Payment Form */
+
+    .order-form {
+        width: 100vw;
+    }
+
+    .order-form-content {
+        width: 100vw;
+        padding-right: 50px;
+    }
+
+    .close-form {
+        top: 20px;
+        right: 30px;
+    }
+}
+
+
+
+
+
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+    
+    .hamburger-icon {
+        top: 130px;
+        right: 10px;
+    }
+
+    .arrow-up {
+        right: 20px;
+    }
+
+    menu {
+        margin: 0;
+    }
+
+    .menu {
+        padding-right: 50px;
+        top: 123px;
+    }
+
+    .cart-toggle {
+        top: 200px;
+        right: 20px;
+    }
+
+    .cart-container {
+        padding: 0 40px;
+    }
+
+    .cart-container.active {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .close-cart {
+        margin-top: 50px;
+    }
+
+    .menu-items {
+        width: 300px;
+    }
+}
+
+
+
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    
+    .hamburger-icon {
+        top: 100px;
+        right: 5px;
+    }
+    
+    .menu {
+        padding-right: 50px;
+        top: 79px;
+    }
+
+    .cart-container {
+        padding: 0 40px;
+    }
+
+    .cart-container.active {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .close-cart {
+        margin-top: 20px;
+    }
+
+    .menu-items {
+        width: 300px;
+    }
+}
+
+
+
+
+
+@media only screen and (min-width: 1200px) {
+    
+    .hamburger-icon {
+        top: 90px;
+        right: 10px;
+    }
+    
+    .menu {
+        padding-right: 50px;
+        top: 80px;
+    }
+
+    .cart-toggle {
+        right: 20px;
+    }
+
+    .close-cart {
+        margin-top: 10px;
+    }
+}
