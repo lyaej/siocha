@@ -23,7 +23,7 @@
     
     .menu.active {
         height: 100vh;
-        align-items: center;
+        align-items: flex-start;
         font-size: 1rem;
     }
 
@@ -136,6 +136,24 @@
 
 
 
+@media only screen and (min-width: 400px) and (max-width: 460px) {
+    
+    /* HAMBURGER ICON */
+    .hamburger-icon {
+        top: 130px;
+        right: 0;
+    }
+
+
+    .menu {
+        top: 140px;
+    }
+
+}
+
+
+
+
 
 @media only screen and (min-width: 480px) and (max-width: 768px)  {
     main {
@@ -156,19 +174,21 @@
         align-items: flex-start;
         justify-content: flex-start;
         align-content: flex-start;
-        gap: 30px;
-        padding: 60px 40px;
+        gap: 20px;
+        padding: 20px;
     }
     
     .menu-category h3 {
-        font-size: 2rem;
+        font-size: 1.1rem;
         
     }
     
     .menu.active {
         height: 100vh;
+        flex-direction: column;
+        justify-content: flex-start;
         align-items: flex-start;
-        font-size: 2rem;
+        align-content: center;
     }
 
     .all-menu {
